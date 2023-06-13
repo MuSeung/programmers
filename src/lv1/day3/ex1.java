@@ -28,7 +28,7 @@ public class ex1 {
                 first = calling;
             }
             else{
-                racing.put(frontOfFront,new String[] {racing.get(frontOfFront)[0], calling})
+                racing.put(frontOfFront,new String[] {racing.get(frontOfFront)[0], calling});
 
             }
             racing.put(front, new String[] {calling, back});
