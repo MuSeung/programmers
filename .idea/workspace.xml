@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b55c92-51db-4eb3-b5b9-45fc1b7d9f87" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lv1/day1/ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day2/ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day2/ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day2/ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day3/ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day4/ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day4/ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day5/ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day5/ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day6/ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day6/ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day6/ex3.java" afterDir="false" />
+    <list default="true" id="b4b55c92-51db-4eb3-b5b9-45fc1b7d9f87" name="변경" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/lv1/day6/ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day6/ex5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +79,23 @@
       <workItem from="1686033875753" duration="4112000" />
       <workItem from="1686291113365" duration="2257000" />
       <workItem from="1686293736645" duration="1668000" />
-      <workItem from="1686641815500" duration="5297000" />
+      <workItem from="1686641815500" duration="8898000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1686655239288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686655239288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
