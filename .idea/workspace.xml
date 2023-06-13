@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4b55c92-51db-4eb3-b5b9-45fc1b7d9f87" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv1/day1/ex155652.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day1/ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day2/ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day2/ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day2/ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day3/ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day4/ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day4/ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day5/ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day5/ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day6/ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day6/ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv1/day6/ex3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/programmers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -73,6 +80,17 @@
       <option name="presentableId" value="Default" />
       <updated>1676869297642</updated>
       <workItem from="1676869299309" duration="1471000" />
+      <workItem from="1676871689996" duration="2406000" />
+      <workItem from="1684989142343" duration="4536000" />
+      <workItem from="1685078915168" duration="732000" />
+      <workItem from="1685434525245" duration="603000" />
+      <workItem from="1685603158597" duration="654000" />
+      <workItem from="1685691799021" duration="7504000" />
+      <workItem from="1685761601600" duration="4033000" />
+      <workItem from="1686033875753" duration="4112000" />
+      <workItem from="1686291113365" duration="2257000" />
+      <workItem from="1686293736645" duration="1668000" />
+      <workItem from="1686641815500" duration="5297000" />
     </task>
     <servers />
   </component>
