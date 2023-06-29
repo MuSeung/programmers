@@ -2,44 +2,50 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
             Main a = new Main();
-            String[] players = {"mumu", "soe", "poe", "kai", "mine"};
-            String[] callings = {"kai", "kai", "mine", "mine"};
-            System.out.println(a.solution(players, callings));
+            String[] players = {"A", "E", "B", "D", "B", "H", "F", "H", "C"};
+            String[] callings = {"G", "C", "G", "F", "J", "E", "B", "F", "B"};
+            System.out.println(a.solution(players, callings, "B"));
+            for(String x : a.solution(players, callings, "B")){
+                System.out.println(x);
+            }
     }
-    public String[] solution(String[] players, String[] callings) {
-        Map<String, String[]> racing = new HashMap<>();
-        for (int i = 1; i < players.length - 1; i++) {
-            racing.put(players[i], new String[] {players[i - 1], players[i + 1]});
-        }
-        String last = players[players.length - 1];
-        String first = players[0];
-        racing.put(first,new String[] {" ", players[1]});
-        racing.put(last,new String[] {players[players.length - 2], " "});
-        for (String calling : callings) {
-            String front = racing.get(calling)[0];
-            String back = racing.get(calling)[1];
-            String frontOfFront = racing.get(front)[0];
-            if(calling.equals(last)){
-                last = racing.get(last)[0];
+    public String[] solution(String[] s1, String[] s2, String k) {
+        HashMap<String, List<String>> classGraph = new HashMap<>();
+        for (int i = 0; i < s1.length; i++) {
+            if (!classGraph.containsKey(s2[i])) {
+                classGraph.put(s2[i], new ArrayList<>());
             }
-            else {
-                String backOfBack = racing.get(back)[1];
-                racing.put(back, new String[]{front, backOfBack});
+            classGraph.get(s2[i]).add(s1[i]);
+        }
+        List<List<String>> classDepth = new ArrayList<>();
+        classDepth.add(new ArrayList<>());
+        classDepth.get(0).addAll(classGraph.get(k));
+
+        int depth = 0;
+        while (classDepth.get(depth).size() > 0) {
+            classDepth.add(new ArrayList<>());
+            for (String c : classDepth.get(depth)) {
+                if(classGraph.containsKey(c)){
+                    classDepth.get(depth + 1).addAll(classGraph.get(c));
+                }
             }
-            racing.put(front, new String[] {calling, back});
-            racing.put(calling, new String[] {frontOfFront, front});
+            depth++;
         }
-        String[] answer = new String[players.length];
-        answer[players.length - 1] = last;
-        for (int i = players.length - 2; i > -1; i--) {
-            answer[i] = racing.get(last)[0];
-            last = answer[i];
+        System.out.println("depth 마지막 : " + classDepth + " 크기 :" + classDepth.size());
+        List<String> answerList = new ArrayList<>();
+        for (int i = depth ; i > -1; i--) {
+            System.out.println("깊이 "+i+" :"+classDepth.get(i));
+            answerList.addAll(classDepth.get(i));
         }
+        System.out.println("리스트" + answerList);
+        answerList = answerList.stream().distinct().collect(Collectors.toList());
+        String[] answer = answerList.toArray(new String[answerList.size()]);
+        System.out.println("정답"+Arrays.toString(answer));
         return answer;
     }
 }
